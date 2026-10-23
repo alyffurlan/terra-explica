@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conteúdos sobre geografia, sociedade, meio ambiente e o mundo, de forma simples, clara e confiável.">
+  <meta name="theme-color" content="#000b0c">
+  <title>A Terra Explica — Entenda o mundo em que vivemos</title>
+  <link rel="icon" href="favicon.ico?v=2" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/icon-512.png?v=2">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=2">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Figtree:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="progress" aria-hidden="true"></div>
+  <header class="site-header" id="site-header"><a class="brand" href="#top" aria-label="A Terra Explica, início"><img src="assets/logo-topo.png" alt="A Terra Explica"></a><nav class="main-nav" aria-label="Seções"><a href="#sobre">Sobre</a><a href="#artigos">Artigos</a><a href="#contato">Contato</a></nav></header>
+
+  <main id="top">
+    <section class="hero" id="inicio">
+      <div class="hero-bg" id="hero-bg"><div class="hero-bg-img"></div></div>
+      <div class="hero-copy">
+        <h1 class="hero-logo-img"><img src="assets/logo-completa.png" alt="A Terra Explica — Entenda o mundo em que vivemos."></h1>
+        <p class="hero-description">Aqui você encontra conteúdos sobre geografia, sociedade, meio ambiente e o mundo, de forma simples, clara e confiável.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#artigos">Ver artigos <span>→</span></a><a class="button button-ghost" href="#sobre">Conheça o blog</a></div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>GEOGRAFIA</span><b>✦</b><span>SOCIEDADE</span><b>✦</b><span>MEIO AMBIENTE</span><b>✦</b><span>CLIMA</span><b>✦</b><span>CIDADES</span><b>✦</b><span>POPULAÇÃO</span><b>✦</b><span>CARTOGRAFIA</span><b>✦</b><span>CONTINENTES</span><b>✦</b><span>OCEANOS</span><b>✦</b><span>BIOMAS</span><b>✦</b><span>GEOGRAFIA</span><b>✦</b><span>SOCIEDADE</span><b>✦</b><span>MEIO AMBIENTE</span><b>✦</b><span>CLIMA</span><b>✦</b><span>CIDADES</span><b>✦</b><span>POPULAÇÃO</span><b>✦</b><span>CARTOGRAFIA</span><b>✦</b><span>CONTINENTES</span><b>✦</b><span>OCEANOS</span><b>✦</b><span>BIOMAS</span><b>✦</b></div></div>
+
+    <section class="about" id="sobre"><div class="eyebrow" style="justify-content:center"><span class="eyebrow-dot"></span> SOBRE O BLOG</div><h2>Geografia para entender o mundo, <em>sem complicar.</em></h2><p>Cada artigo é um convite para olhar o planeta por outro ângulo: paisagens, sociedades, clima e meio ambiente explicados com clareza e fontes confiáveis, seguidos de um quiz para fixar o que você aprendeu.</p></section>
+
+    <section class="articles-section section-wrap" id="artigos">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span class="eyebrow-dot"></span> ARTIGOS</div><h2>Explore o mundo.<br><em>Um tema por vez.</em></h2></div>
+        <p>Temas diferentes, explicados de um jeito leve.<br>Leia, explore e teste o que aprendeu.</p>
+      </div>
+      <div class="filter-row">
+        <div class="filter-list" id="filters"><button class="filter active" data-category="Todos">Todos os temas <span>↗</span></button></div>
+        <label class="search-box"><span>⌕</span><input type="search" id="search-input" placeholder="Qual assunto chamou sua atenção?" aria-label="Buscar artigos"><kbd>↵</kbd></label>
+      </div>
+      <div class="featured-grid" id="featured-grid"></div>
+      <div class="list-heading"><span>MAIS PARA EXPLORAR</span><span id="results-label">03 PUBLICAÇÕES</span></div>
+      <div class="article-list" id="article-list"></div>
+      <div class="empty-state" id="empty-state" hidden><span>✳</span><h3>Não encontramos esse assunto.</h3><p>Tente outra palavra ou escolha uma categoria diferente.</p></div>
+    </section>
+
+    <section class="closing-band"><div class="closing-icon">◎</div><p>O mundo é grande demais para parar de perguntar.</p><span>ATÉ A PRÓXIMA DESCOBERTA <b>✳</b></span></section>
+  </main>
+
+  <footer class="site-footer" id="contato"><a class="brand footer-brand" href="#top" aria-label="A Terra Explica"><img src="assets/logo-topo.png" alt="A Terra Explica"></a><p>Entenda o mundo em que vivemos.</p><span class="contact">Contato: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></span><span class="footer-right">© <span id="year"></span> A TERRA EXPLICA</span></footer>
+
+  <div class="modal-backdrop" id="article-modal" aria-hidden="true">
+    <article class="article-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" aria-label="Fechar artigo">×</button>
+      <div id="modal-content"></div>
+    </article>
+  </div>
+  <script src="js/articles.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
