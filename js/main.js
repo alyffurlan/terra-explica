@@ -66,7 +66,7 @@ function openArticle(id, fromHistory = false) {
       <p class="modal-excerpt">${escapeHTML(article.excerpt)}</p>
       <div class="article-body">${renderContent(article)}</div>
       <section class="quiz-section" id="quiz-section"><div class="quiz-kicker">HORA DE TESTAR O QUE VOCÊ APRENDEU</div><h3>Vamos ver o que ficou?</h3>
-        <p style="font-size:12px;color:#737469;margin-top:-14px;margin-bottom:20px">Responda às três perguntas. Depois, confira o gabarito explicado.</p>
+        <p style="font-size:15px;color:#737469;margin-top:-14px;margin-bottom:20px">Responda às três perguntas. Depois, confira o gabarito explicado.</p>
         ${article.quiz.map((q, i) => `<div class="quiz-question" data-question="${i}"><h4>${i + 1}. ${escapeHTML(q.question)}</h4><div class="quiz-options">${q.options.map((option, j) => `<label class="quiz-option"><input type="radio" name="q-${i}" value="${j}"><span>${escapeHTML(option)}</span></label>`).join("")}</div><div class="answer-feedback" hidden></div></div>`).join("")}
         <div class="quiz-footer"><span class="quiz-score" id="quiz-score">3 perguntas · sem pressão, é para aprender</span><div><button class="quiz-reset" id="quiz-reset" type="button">Refazer</button> <button class="quiz-check" id="quiz-check" type="button">Conferir respostas ↗</button></div></div>
       </section><div class="modal-endnote">Continue curioso. Até a próxima ideia. ✳</div>

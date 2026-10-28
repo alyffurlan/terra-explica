@@ -12,7 +12,7 @@ const ARTICLES = [
   {
     id: "placas-tectonicas",
     category: "Geologia",
-    date: "2026-10-20",
+    date: "2026-10-28",
     readTime: "4 MIN DE LEITURA",
     title: "Placas tectônicas: por que a superfície da Terra está sempre em movimento?",
     excerpt: "O chão sob nossos pés parece parado, mas a litosfera é feita de grandes blocos que se movem lentamente e transformam o planeta.",
@@ -41,7 +41,7 @@ const ARTICLES = [
   {
     id: "camadas-da-terra",
     category: "Geologia",
-    date: "2026-10-13",
+    date: "2026-10-28",
     readTime: "4 MIN DE LEITURA",
     title: "Camadas da Terra: o que existe por baixo dos nossos pés?",
     excerpt: "Crosta, manto e núcleo: conheça as três camadas do planeta e como os cientistas estudam um interior que ninguém consegue visitar.",
@@ -70,7 +70,7 @@ const ARTICLES = [
   {
     id: "terremotos",
     category: "Geologia",
-    date: "2026-10-06",
+    date: "2026-10-28",
     readTime: "5 MIN DE LEITURA",
     title: "Terremotos: por que a Terra treme e como reduzir os riscos?",
     excerpt: "Tremores repentinos nascem da liberação de energia no interior do planeta. Entenda as causas, as formas de medir e as consequências.",
