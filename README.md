@@ -8,7 +8,7 @@ Um blog responsivo feito com **HTML, CSS e JavaScript puro**, sem dependências,
 2. Abra a pasta no VS Code.
 3. Abra `index.html` no navegador. Para uma experiência de desenvolvimento melhor, use a extensão **Live Server** no VS Code e clique em **Go Live**.
 
-As imagens dos artigos de exemplo são carregadas de URLs públicas do Unsplash; para que elas apareçam, é necessária conexão com a internet. As fontes também são carregadas do Google Fonts.
+As imagens dos artigos ficam na pasta `assets/`. As fontes são carregadas do Google Fonts, então é necessária conexão com a internet para que apareçam.
 
 ## Como publicar no GitHub Pages (recomendado)
 
@@ -78,7 +78,7 @@ Prefira imagens próprias ou com licença que permita reutilização. Dê crédi
 - Artigo aberto em uma janela de leitura.
 - Quiz com três perguntas, correção automática e explicação de cada resposta.
 - Botão para refazer o quiz.
-- Três artigos de exemplo para testar o funcionamento.
+- Três artigos publicados: placas tectônicas, camadas da Terra e terremotos.
 
 ## Observações
 
